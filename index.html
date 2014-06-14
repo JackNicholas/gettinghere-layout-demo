@@ -1,5 +1,89 @@
-hello world
-<br/>
-and this is from local
-<br/>
-and this is back on github
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+<meta name="Subject" content="CBCA - Drumoig - Responsive Travel Assistant amd Business Location Map for CBCA" />
+
+<!-- Bootstrap core CSS -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/css/bootstrap.css" rel="stylesheet" media="screen">
+  <!-- JavaScript -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<title>CBCA Accountants Drumoig - Responsive Travel Assistant amd Business Location Map for CBCA</title>
+
+<LINK REL="SHORTCUT ICON" HREF="http://www.gettinghe.re/favicon_ghr.ico">
+
+<style type="text/css" title="text/css" media="screen">
+</style>
+
+
+<script>
+function initialize() {
+  var mapOptions = {
+    zoom: 18,
+    center: new google.maps.LatLng(56.414793,-2.90877),
+    mapTypeId: google.maps.MapTypeId.SATELLITE,
+    scrollwheel: false,
+    streetViewControl: false
+  }
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+                                mapOptions);
+
+  var image = 'http://gettinghe.re/pc/ky/cbca/cbca_map_marker_85_150.png';
+  var myLatLng = new google.maps.LatLng(56.414793,-2.90877);
+  var beachMarker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      icon: image
+  });
+}
+
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+  </script>
+
+</head>
+
+<body>
+<div class="container">
+
+<div class="row"><!-- start main content row -->
+  <div class="col-md-4"><!-- start left sidebar column -->
+    Level 1: .col-md-4
+    <div class="row"><!-- start nested row to split out sidebar icons and captions -->
+      <div class="col-md-2"><!-- start nested icons sidebar col -->
+        Level 2: .col-md-2
+      </div><!-- end nested icons sidebar col -->
+      <div class="col-md-10"><!-- start nested captions sidebar col -->
+        Level 2: .col-md-10
+      </div><!-- end nested right captions sidebar col -->
+    </div><!-- end nested row -->
+  </div><!-- end main left sidebar column -->
+  <div class="col-md-8"><!-- start main map right hand  col -->
+    Level 1: .col-md-8
+  </div> <!-- end main map right hand column -->
+</div> <!-- end main content row -->
+
+<div class="row"><!-- start footer row -->
+<div class="col-md-6"><!-- start left footer column -->
+  ITA
+</div><!-- end left footer column -->
+<div class="col-md-6"><!-- start right footer column -->
+  copyright
+</div><!-- end right footer column -->
+</div><!-- end footer row -->
+
+
+</div> <!-- end container -->
+</body>
