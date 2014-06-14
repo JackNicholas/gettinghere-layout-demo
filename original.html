@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+<meta name="Subject" content="CBCA - Drumoig - Responsive Travel Assistant amd Business Location Map for CBCA" />
+
+<!-- Bootstrap core CSS -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/css/bootstrap.css" rel="stylesheet" media="screen">	
+	<!-- JavaScript -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<title>CBCA Accountants Drumoig - Responsive Travel Assistant amd Business Location Map for CBCA</title>
+
+<LINK REL="SHORTCUT ICON" HREF="http://www.gettinghe.re/favicon_ghr.ico">
+
+<style type="text/css" title="text/css" media="screen">
+html, body {height: 617px;}
+#map-canvas {
+height:617px;
+top:3px;
+zIndex: 1;
+}
+
+#map-outer {  
+height: 637px;
+font-size:1.7em;
+color:#000000;
+}
+#address {  
+height: 637px;
+
+}
+
+
+body {
+    background-color: #ffffff;
+    font: .8em verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    text-align:center;
+}
+
+#ghrlogocont {position:absolute;left:0px;top:0px;width:250px;height:70px;}
+#ghrlogocont  .leftfloat{width:40px; float:left;}
+#ghrlogocont  .rightfloat{width:200px; float:right;}
+
+
+#ghrphotocont {position:absolute;left:0px;top:83px;width:250px;height:100px; }
+#ghrphotocont  .leftfloat{width:40px; float:left;}
+#ghrphotocont  .rightfloat{width:200px; float:right;}
+
+#ghraddresscont {position:absolute;left:0px;top:182px;width:250px;height:73px; }
+#ghraddresscont  .leftfloat{width:40px; float:left;font-size:2.0em; color:#000000;}
+#ghraddresscont  .rightfloat{width:200px; float:right; font-size:1.0em; color:#000000;}
+
+
+#ghrlocationcont {position:absolute;left:0px;top:256px;width:260px;height:36px; }
+#ghrlocationcont  .leftfloat{width:40px; float:left;}
+#ghrlocationcont  .rightfloat{width:200px; float:right;font-size:1.0em; color:#000000;}
+
+#ghrphonecont {position:absolute;left:0px;top:293px;width:250px;height:36px; }
+#ghrphonecont  .leftfloat{width:40px; float:left;}
+#ghrphonecont  .rightfloat{width:200px; float:right;font-size:1.0em;color:#000000;vertical-align: middle;}
+
+#ghremailcont {position:absolute;left:0px;top:330px;width:250px;height:36px; }
+#ghremailcont  .leftfloat{width:40px; float:left;}
+#ghremailcont  .rightfloat{width:200px; float:right;font-size:1.0em;color:#000000;vertical-align: middle;}
+
+#ghraccessibility {position:absolute;left:0px;top:367px;width:250px;height:36px; }
+#ghraccessibility .leftfloat{width:40px; float:left;}
+#ghraccessibility .rightfloat{width:200px; float:right;font-size:1.0em;color:#000000;vertical-align: middle;}
+
+
+#ghrairportcont {position:absolute;left:0px;top:404px;width:250px;height:36px; }
+#ghrairportcont  .leftfloat{width:40px; float:left;}
+#ghrairportcont .rightfloat{width:200px; float:right;font-size:1.0em;color:#000000;}
+
+#ghrrailwaycont {position:absolute;left:0px;top:441px;width:250px;height:36px; }
+#ghrrailwaycont  .leftfloat{width:40px; float:left;}
+#ghrrailwaycont .rightfloat{width:200px; float:right;font-size:1.0em;color:#000000;}
+
+#ghrtaxicont {position:absolute;left:0px;top:478px;width:250px;height:36px; }
+#ghrtaxicont  .leftfloat{width:40px; float:left;}
+#ghrtaxicont .rightfloat{width:200px; float:right;font-size:1.0em;color:#000000;}
+
+#ghrcarhirecont {position:absolute;left:0px;top:515px;width:250px;height:36px; }
+#ghrcarhirecont  .leftfloat{width:40px; float:left;}
+#ghrcarhirecont .rightfloat{width:200px; float:right;font-size:1.0em;color:#000000;}
+
+#ghraccommodationcont {position:absolute;left:0px;top:552px;width:250px;height:36px; }
+#ghraccommodationcont .leftfloat{width:40px; float:left;}
+#ghraccommodationcont .rightfloat{width:200px; float:right;font-size:1.0em;color:#000000;}
+
+#socmedcont {position:absolute;left:0px;top:589px;width:260px;height:37px; }
+#socmedcont  .twitter{width:35px; position:relative; float:left;  } 
+#socmedcont  .facebook{width:35px; position:relative; float:left; }
+#socmedcont  .news{width:35px; position:relative; float:left; }
+#socmedcont  .loc8-people{width:35px; position:relative; float:left; }
+#socmedcont  .googleplus{width:35px; position:relative; float:left; }
+#socmedcont  .youtube{width:35px; position:relative; float:left;  }
+#socmedcont  .pdf-printer{width:35px; position:relative; float:left;  }
+
+
+#footer{
+position:absolute;
+left:0;
+top:625px;
+text-align:left;
+font-size:0.9em;
+color:#003366;
+}
+
+#copyright{
+position:absolute;
+right:0px;
+top:625px;
+text-align:right;
+font-size:0.9em;
+}
+
+#sendtofriends{
+position:relative;
+left:450px;
+top:545px;
+text-align:left;
+font-size:0.9em;
+}
+
+
+a:link {color:#000000;}      /* unvisited link */
+a:visited {color:#000000;}  /* visited link */
+a:hover {color:#33cc00;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+</style>
+
+
+
+
+
+<script>
+function initialize() {
+  var mapOptions = {
+    zoom: 18,
+    center: new google.maps.LatLng(56.414793,-2.90877),
+	mapTypeId: google.maps.MapTypeId.SATELLITE,
+    streetViewControl: false
+	
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+                                mapOptions);
+
+  var image = 'cbca_map_marker_85_150.png';
+  var myLatLng = new google.maps.LatLng(56.414793,-2.90877);
+  var beachMarker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      icon: image
+  });
+}
+
+	
+google.maps.event.addDomListener(window, 'load', initialize);	
+	
+
+	</script>
+
+</head>
+
+<body onload="initialise()">
+
+
+
+<div class="container">
+            
+<div class="row">
+
+<div id="address"class="col-md-4 text-center">
+
+<div id="ghrlogocont">
+<div class="leftfloat"><a href="http://cbca.co.uk/index_cb_test2.html" onclick="window.open('http://cbca.co.uk/index_cb_test2.html','WWWSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>
+ <img src="http://www.gettinghe.re/ghr_icons/icon_ghr_www_40_36.png" title="Click on icon to open The CBCA web site in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="http://cbca.co.uk/index_cb_test2.html" onclick="window.open('http://cbca.co.uk/index_cb_test2.html','WWW2Site','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>
+<img src="cbca_logo_140_80.jpg" title="Click on image to open The CBCA web site in a new browser window" width="140px" height="80px"></a></div>
+</div>
+
+<div id="ghrphotocont">
+<div class="leftfloat"> <a href="lrm_photo_620_349.png" onclick="window.open('lrm_photo_620_349.png','IMGSite','height=370,width=640,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_photo_40_36.png" title="Click on icon to view enlarged photograph in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="lrm_photo_620_349.png" onclick="window.open('lrm_photo_620_349.png','IMG2Site','height=370,width=640,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>
+<img src="cbca_office_200_100.jpg" title="Click on icon to view enlarged photograph in a new browser window" width="200px" height="100px"></a></div>
+</div>
+
+<div id="ghraddresscont">
+<div class="leftfloat"><a href="http://goo.gl/maps/sX6CT" onclick="window.open('http://goo.gl/maps/sX6CT','ADDRESSSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_mapmarker_40_36.png" title="Click on icon or text to view this location on Google Maps in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="http://goo.gl/maps/sX6CT" onclick="window.open('http://goo.gl/maps/sX6CT','ADDRESS2Site','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>
+<b>CBCA</b> <br> Drumoig <br> St Andrews<br>KY16 0DS</a></div>
+</div>
+
+<div id="ghrlocationcont">
+<div class="leftfloat"><a href="https://maps.google.co.uk/maps?daddr=56.414793,-2.90877" onclick="window.open('https://maps.google.co.uk/maps?daddr=56.414793,-2.90877','LOCATIONSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+ <img src="http://www.gettinghe.re/ghr_icons/icon_ghr_rotating_compass_arrow_36_36.gif" title="Click on icon or text to view Get Driving Directions with Google Maps" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="https://maps.google.co.uk/maps?daddr=56.414793,-2.90877" onclick="window.open('https://maps.google.co.uk/maps?daddr=56.414793,-2.90877','LOCATIONSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_car_20_15.png" title="Click on icon or text to view Get Driving Directions with Google Maps" width="20px" height="15px"><b>&nbsp;Get Directions &nbsp;</b><img src="http://www.gettinghe.re/ghr_icons/icon_ghr_question_20_20.png" title="When the Get Directions page openS, type YOUR CURRENT LOCATION into box A then Click on Get Directions button" width="20px" height="20px"><br>Lat/Lng:56.414793,-2.90877</a></div>
+
+
+</div>
+
+<div id="ghrphonecont">
+<div class="leftfloat"> <img src="http://www.gettinghe.re/ghr_icons/icon_ghr_phone_40_36.png" title="" width="40px" height="36px"></a></div>
+<div class="rightfloat"><b>UK +44 (0) 7500876388</b></div>
+</div>
+
+<div id="ghremailcont">
+<div class="leftfloat"><a href="mailto:chris@cbca.co.uk" onclick='window.open('mailto:chris@cbca.co.uk','EMAILSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>
+ <img src="http://www.gettinghe.re/ghr_icons/icon_ghr_email_40_36.png" title="Click on icon or text to open your e-mail client in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="mailto:chris@cbca.co.uk" onclick="window.open('mailto:chris@cbca.co.uk','EMAIL2Site','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>
+<b>chris@cbca.co.uk</b></a></div>
+</div>
+
+<div id="ghraccessibility">
+<div class="leftfloat"> <a href="http://en.wikipedia.org/wiki/Accessibility" onclick="window.open('http://en.wikipedia.org/wiki/Accessibility','ACCESSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+<img src="http://www.gettinghe.re/ghr_icons/icon_cbca_access_40_36.gif" title="Click on icon or text to view Accessibility Information in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="http://en.wikipedia.org/wiki/Accessibility" onclick="window.open('http://en.wikipedia.org/wiki/Accessibility','ACCESS2Site','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+<b>Accessibility Contact</b> <br><b> Chris Beaton</b></div>
+</div>
+
+<div id="ghrairportcont">
+<div class="leftfloat"> <a href="http://www.hial.co.uk/dundee-airport/" onclick="window.open('http://www.hial.co.uk/dundee-airport/','AIRPORTSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_plane_40_36.png" title="Click on icon or text to view Dundee Airport web site in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="http://www.hial.co.uk/dundee-airport/" onclick="window.open('http://www.hial.co.uk/dundee-airport/','AIRPORT2Site','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+Dundee Airport (DDE) <br> UK +44 (0) 1382 662200</div>
+</div>
+
+<div id="ghrrailwaycont">
+<div class="leftfloat"> <a href="www.nationalrail.co.uk/stations_destinations/DEE.aspx" onclick="window.open('http://www.nationalrail.co.uk/stations/sol/details.html','RAILWAYSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_train_40_36.png" title="Click on icon or text to view Dundee Railway Station web site in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="www.nationalrail.co.uk/stations_destinations/DEE.aspx" onclick="window.open('http://www.nationalrail.co.uk/stations/sol/details.html','RAILWAYSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+Dundee (DEE) Station  <br>   UK  +44 (0) 8457 48 49 50</div>
+</div>
+
+<div id="ghrtaxicont">
+<div class="leftfloat"> <a href="http://www.clubcars-standrews.com/" onclick="window.open('http://www.clubcars-standrews.com/','TAXISite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_taxi_40_36.png" title="Click on icon or text to view Castle Cars Taxis web site in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="http://www.clubcars-standrews.com/" onclick="window.open('http://www.clubcars-standrews.com/','TAXISite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+Club Cars Taxi  <br>   UK +44 (0) 1334 848467</div>
+</div>
+
+<div id="ghrcarhirecont">
+<div class="leftfloat"><a href="www.arnoldclarkrental.com/car-and-van-hire-locations/dundee" onclick="window.open('www.arnoldclarkrental.com/car-and-van-hire-locations/dundee','CARHIRESite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>  
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_carhire_40_36.png" title="Click on icon or text to view Enterprise Car Hire web site in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="www.arnoldclarkrental.com/car-and-van-hire-locations/dundee" onclick="window.open('www.arnoldclarkrental.com/car-and-van-hire-locations/dundee','CARHIRESite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+Arnold Clark - Dundee  <br>  UK +44 (0) 845 607 4500</div>
+</div>
+
+<div id="ghraccommodationcont">
+<div class="leftfloat"><a href="http://drumoiggolfhotel.com/" onclick="window.open('http://drumoiggolfhotel.com','ACCOMMODATIONSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/>  
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_accommodation_40_36.png" title="Click on icon or text to view Drumoig Hotel web site in a new browser window" width="40px" height="36px"></a></div>
+<div class="rightfloat"><a href="http://drumoiggolfhotel.com/" onclick="window.open('http://drumoiggolfhotel.com','ACCOMMODATIONSite','height=500,width=800,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+Drumoig Golf Hotel   <br>  UK +44 (0) 1382 541800</div>
+</div>
+
+<div id="socmedcont">
+<div class="pdf-printer">
+<a href="gettinghere_test_pdf_190514.pdf" onclick="window.open('gettinghere_test_pdf_190514.pdf','PDFSite','height=500,width=800, left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');return false;"/> 
+<img src="http://www.gettinghe.re/ghr_icons/icon_ghr_pdf_printer_35_35.png" title="Click on this icon to download a printable version of this gettinghe.re travel assistant" width="35px" height="35px"></a></div>
+</div>
+
+<div id="footer">
+Gettinghe.re: Inbound Travel Assistant
+</div>
+
+</div><!-- address - end col-mid-4 -->
+
+<!-- col-mid-6 -->
+
+<div id="map-canvas" class="col-md-8"></div>
+
+<div id="copyright">
+&copy; 2014 Intamap
+</div></div><!-- end col-mid-6 -->
+
+
+
+</div><!-- end row -->
+</div><!-- end container -->
+
+
+
+</body>
+
+
+
+</html>
+
+
