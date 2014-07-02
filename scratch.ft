@@ -5,16 +5,17 @@
 * git clean start @done(2014-07-02)
 * test server ? codekit project?  @done(2014-07-02)
 * new page for home page copy @done(2014-07-02)
-* git
-* copy
-* markup
+* git @done(2014-07-02)
+* copy @done(2014-07-02)
+* images @done(2014-07-02)
+* markup @done(2014-07-02)
 * git
 * github
 * test
 * tell graham
-* carousel mark up
-* test js
-* add js if need
+* carousel mark up @done(2014-07-02)
+* test js @done(2014-07-02)
+* add js if need @done(2014-07-02)
 
 
 ## urls
@@ -25,7 +26,20 @@ http://jacknicholas.github.io/gettinghere-layout-demo/mainpage.html
 
 
 
+### snippets
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-cartoons" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-cartoons" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
 
 
 
 
+
+
+
+ 

@@ -2,46 +2,57 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17018",
 "files": {
-	"\/drawing_panel3_4_680_420.png": {
-		"fileType": 32768,
+	"\/access.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 29324,
-		"inputAbbreviatedPath": "\/drawing_panel3_4_680_420.png",
-		"outputAbbreviatedPath": "\/drawing_panel3_4_680_420.png",
+		"initialSize": 23459,
+		"inputAbbreviatedPath": "\/access.jpg",
+		"outputAbbreviatedPath": "\/access.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/drawing_panel4_4_680_420.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40212,
-		"inputAbbreviatedPath": "\/drawing_panel4_4_680_420.png",
-		"outputAbbreviatedPath": "\/drawing_panel4_4_680_420.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/drawing_panel_1_5_680_420.png": {
+	"\/drawing_panel_1_680_420.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 33052,
-		"inputAbbreviatedPath": "\/drawing_panel_1_5_680_420.png",
-		"outputAbbreviatedPath": "\/drawing_panel_1_5_680_420.png",
+		"inputAbbreviatedPath": "\/drawing_panel_1_680_420.png",
+		"outputAbbreviatedPath": "\/drawing_panel_1_680_420.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/drawing_panel_2_4_680_420.png": {
+	"\/drawing_panel_2_680_420.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 35687,
-		"inputAbbreviatedPath": "\/drawing_panel_2_4_680_420.png",
-		"outputAbbreviatedPath": "\/drawing_panel_2_4_680_420.png",
+		"inputAbbreviatedPath": "\/drawing_panel_2_680_420.png",
+		"outputAbbreviatedPath": "\/drawing_panel_2_680_420.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/drawing_panel_3_680_420.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29324,
+		"inputAbbreviatedPath": "\/drawing_panel_3_680_420.png",
+		"outputAbbreviatedPath": "\/drawing_panel_3_680_420.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/drawing_panel_4_680_420.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40212,
+		"inputAbbreviatedPath": "\/drawing_panel_4_680_420.png",
+		"outputAbbreviatedPath": "\/drawing_panel_4_680_420.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -55,6 +66,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/info.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58919,
+		"inputAbbreviatedPath": "\/info.jpg",
+		"outputAbbreviatedPath": "\/info.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/link.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65646,
+		"inputAbbreviatedPath": "\/link.jpg",
+		"outputAbbreviatedPath": "\/link.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/mainpage.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -64,11 +97,53 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/mob-friendly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78866,
+		"inputAbbreviatedPath": "\/mob-friendly.jpg",
+		"outputAbbreviatedPath": "\/mob-friendly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/original.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/original.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 500404,
+		"inputAbbreviatedPath": "\/page.jpg",
+		"outputAbbreviatedPath": "\/page.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93099,
+		"inputAbbreviatedPath": "\/pin.jpg",
+		"outputAbbreviatedPath": "\/pin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/README.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
