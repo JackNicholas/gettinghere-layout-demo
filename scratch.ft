@@ -2,9 +2,9 @@
 
 ##  actions .todo
 * set up atom and iterm @done(2014-07-02)
-* git clean start
-* test server ? codekit project? 
-* new page for home page copy
+* git clean start @done(2014-07-02)
+* test server ? codekit project?  @done(2014-07-02)
+* new page for home page copy @done(2014-07-02)
 * git
 * copy
 * markup
@@ -20,6 +20,10 @@
 ## urls
 
 http://jacknicholas.github.io/gettinghere-layout-demo/
+
+http://jacknicholas.github.io/gettinghere-layout-demo/mainpage.html
+
+
 
 
 
