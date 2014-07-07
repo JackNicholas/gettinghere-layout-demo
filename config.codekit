@@ -13,28 +13,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/drawing_panel3_4_680_420.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27847,
-		"inputAbbreviatedPath": "\/drawing_panel3_4_680_420.png",
-		"outputAbbreviatedPath": "\/drawing_panel3_4_680_420.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/drawing_panel_1_5_680_420.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 31756,
-		"inputAbbreviatedPath": "\/drawing_panel_1_5_680_420.png",
-		"outputAbbreviatedPath": "\/drawing_panel_1_5_680_420.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/drawing_panel_1_680_420.png": {
 		"fileType": 32768,
 		"ignore": 0,
