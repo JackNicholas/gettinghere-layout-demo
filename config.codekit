@@ -117,6 +117,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 449349,
+		"inputAbbreviatedPath": "\/page-old.jpg",
+		"outputAbbreviatedPath": "\/page-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/page.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -126,7 +137,7 @@
 		"outputAbbreviatedPath": "\/page.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/pin.jpg": {
 		"fileType": 16384,
