@@ -77,6 +77,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/ipad_iphone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9033,
+		"inputAbbreviatedPath": "\/ipad_iphone.jpg",
+		"outputAbbreviatedPath": "\/ipad_iphone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/link.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
