@@ -61,8 +61,8 @@ email address as well as form?
 
 You can view more examples of the accuracy of our mapping data in our industry locatories
 
-* Landrover Locatory - Landrover Industry Locations throughtout the UK
-* Railway Locatory - Railway Industry Locations throughtout the UK
+* Landrover Locatory - Landrover Industry Locations throughout the UK
+* Railway Locatory - Railway Industry Locations throughout the UK
 
 links to above?
 
